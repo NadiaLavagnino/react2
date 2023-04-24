@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from " react-router-dom";
+import { useParams } from "react-router-dom";
 
 import { consultarBDD } from "../../assets/funciones";
 import ItemDetail from "../ItemDetail/ItemDetail";

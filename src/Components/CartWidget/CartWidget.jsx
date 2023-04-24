@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
-return (
+    
+    return (
         <>
             <button className="btn btn-secondary cartWidget">
                 <Link to={'/cart'} className="nav-link">

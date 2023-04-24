@@ -1,16 +1,16 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
 
     const datosFormulario= React.useRef()
-    let navigate= useNavigate
+    let navigate= useNavigate()
     
-    const consultarFormulario = (e) =>{
-        e.preventDeFault()
+    const consultarFormulario = (e) => {
+        e.preventDefault()
         console.log(datosFormulario)
         const datForm = new FormData(datosFormulario.current)
-        const cliente = objet.fromEntries(datForm)
+        const cliente = Object.fromEntries(datForm)
         console.log(cliente)
         e.target.reset()
         navigate("/")
