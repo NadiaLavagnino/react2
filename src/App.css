@@ -1,5 +1,5 @@
 .cardProducto {
-  width: 18rem;
+  width: 17rem;
   margin: 4px;
   background-color: hsl(0, 0%, 97%);
 }
@@ -21,12 +21,12 @@ img {
 }
 
 .cartWidget {
-  position: relative;
+  position:relative;
   left: 33%;
   color:white;
 }
 .nav-item{
-  margin: 10px;
+  margin: 5px;
   
 }
 
@@ -36,6 +36,6 @@ img {
 }
 
 .itemDetail {
-  max-width: 540px;
+  max-width: 500px;
   margin-top: 20px;
 }

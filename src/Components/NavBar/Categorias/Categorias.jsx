@@ -4,16 +4,16 @@ const Categorias = () => {
 return (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-link">
-                        <button className='btn btn-secondary'><Link className="nav-link" to={"/"}></Link></button>
+                        <button className='btn btn-secondary'><Link className="nav-link" to={"/"}><i className="fas fa-home fa-lg"></i></Link></button>
                 </li>
                 <li className="nav-link">
-                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/1"}></Link></button>
+                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/1"}>Jeans</Link></button>
                 </li>
                 <li className="nav-link">
-                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/2"}></Link></button>
+                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/2"}>Remeras</Link></button>
                 </li>
                 <li className="nav-link">
-                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/3"}></Link></button>
+                        <button className='btn btn-secondary'><Link className="nav-link" to={"/category/3"}>Camperas</Link></button>
                 </li>
         </ul>
 
